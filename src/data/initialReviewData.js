@@ -1,0 +1,122 @@
+export const initialReviews = [
+  {
+    id: 'REV-01',
+    customerName: 'Rahul Sharma',
+    customerAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1041',
+    foodItem: 'Butter Chicken Masala & Tandoori Tikka',
+    foodRating: 5,
+    serviceRating: 5,
+    comment: 'Exceptional dining experience! The Butter Chicken was velvety smooth and the tandoori naan was piping hot. Prompt service and beautiful ambiance.',
+    date: '2026-09-22',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-02',
+    customerName: 'Priya Sundaram',
+    customerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1044',
+    foodItem: 'Creamy Fettuccine Alfredo',
+    foodRating: 5,
+    serviceRating: 4,
+    comment: 'The pasta was heavenly rich and authentic. The delivery arrived well within the promised time in eco-friendly tamper-proof packaging!',
+    date: '2026-09-23',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-03',
+    customerName: 'Sneha Kulkarni',
+    customerAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1042',
+    foodItem: 'Grilled Chicken Steak & Lava Cake',
+    foodRating: 5,
+    serviceRating: 5,
+    comment: 'Best grilled chicken steak in the city! The mushroom glaze is out of this world. And the molten chocolate lava cake is a must-try.',
+    date: '2026-09-23',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-04',
+    customerName: 'Amitabh Sen',
+    customerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1043',
+    foodItem: 'Dum Handi Chicken Biryani',
+    foodRating: 4,
+    serviceRating: 5,
+    comment: 'Very flavorful biryani with tender chicken pieces and long grain aged rice. Gulab jamun with rabri was the perfect dessert finish.',
+    date: '2026-09-23',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-05',
+    customerName: 'Rohan Mehra',
+    customerAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1040',
+    foodItem: 'Farmhouse Veg Delight Pizza',
+    foodRating: 5,
+    serviceRating: 5,
+    comment: 'The crust on the pizza was crispy and thin, with generous fresh toppings. The iced caramel macchiato was super refreshing!',
+    date: '2026-09-22',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-06',
+    customerName: 'Divya Nambiar',
+    customerAvatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1039',
+    foodItem: 'Paneer Butter Masala & Veg Biryani',
+    foodRating: 5,
+    serviceRating: 5,
+    comment: 'Took my family for dinner and everyone fell in love with the paneer. Staff was courteous, attentive, and very professional.',
+    date: '2026-09-22',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-07',
+    customerName: 'Pooja Hegde',
+    customerAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1038',
+    foodItem: 'Crispy Chicken Wings & Virgin Mojito',
+    foodRating: 4,
+    serviceRating: 4,
+    comment: 'Wings were crunchy on the outside, succulent inside. Great mocktails selection.',
+    date: '2026-09-21',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-08',
+    customerName: 'Karthik Rao',
+    customerAvatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1037',
+    foodItem: 'Veg Supreme Burger',
+    foodRating: 3,
+    serviceRating: 4,
+    comment: 'Burger was okay, though delivery took slightly longer due to heavy rain. Appreciate the support team issuing quick assistance.',
+    date: '2026-09-21',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-09',
+    customerName: 'Ananya Deshmukh',
+    customerAvatar: 'https://images.unsplash.com/photo-1548142813-c348350df52b?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1035',
+    foodItem: 'Sizzling Garlic Butter Prawns',
+    foodRating: 5,
+    serviceRating: 5,
+    comment: 'The garlic butter prawns are unmissable! Five stars for quality, plating, and customer service.',
+    date: '2026-09-20',
+    status: 'Approved'
+  },
+  {
+    id: 'REV-10',
+    customerName: 'Arjun Kapoor',
+    customerAvatar: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200&auto=format&fit=crop&q=80',
+    orderId: 'ORD-1034',
+    foodItem: 'Tandoori Paneer Tikka',
+    foodRating: 4,
+    serviceRating: 4,
+    comment: 'Fresh ingredients and great taste. Will be visiting with friends again this weekend.',
+    date: '2026-09-19',
+    status: 'Approved'
+  }
+];

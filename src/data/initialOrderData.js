@@ -1,0 +1,222 @@
+export const initialOrders = [
+  {
+    id: 'ORD-1045',
+    customerId: 'CUST-101',
+    customerName: 'Rahul Sharma',
+    customerEmail: 'customer@restaurant.com',
+    customerPhone: '+91 98765 43210',
+    orderType: 'Dine-in',
+    tableNumber: '03',
+    items: [
+      { id: 'food-3', name: 'Classic Chicken Pizza', price: 249, quantity: 2, image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-8', name: 'Smoky Gourmet Chicken Burger', price: 179, quantity: 1, image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 677,
+    tax: 33.85,
+    serviceCharge: 33.85,
+    total: 744.70,
+    paymentMethod: 'UPI',
+    paymentStatus: 'Paid',
+    status: 'New',
+    createdAt: '2026-09-23T20:45:00',
+    estimatedTime: '20 mins',
+    notes: 'Please make the pizza slightly crispy.'
+  },
+  {
+    id: 'ORD-1044',
+    customerId: 'CUST-102',
+    customerName: 'Priya Sundaram',
+    customerEmail: 'priya.s@gmail.com',
+    customerPhone: '+91 98111 22334',
+    orderType: 'Delivery',
+    deliveryAddress: 'Flat 4B, Green Meadows, Koramangala, Bengaluru - 560034',
+    items: [
+      { id: 'food-10', name: 'Creamy Fettuccine Alfredo', price: 249, quantity: 1, image: 'https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-14', name: 'Crispy Peri-Peri French Fries', price: 119, quantity: 1, image: 'https://images.unsplash.com/photo-1576107232684-1279f3908594?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-21', name: 'Fresh Mint Lime Soda', price: 89, quantity: 2, image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 546,
+    tax: 27.30,
+    serviceCharge: 27.30,
+    total: 600.60,
+    paymentMethod: 'Card',
+    paymentStatus: 'Paid',
+    status: 'Preparing',
+    createdAt: '2026-09-23T20:25:00',
+    estimatedTime: '15 mins',
+    notes: 'Extra cheese on the pasta please.'
+  },
+  {
+    id: 'ORD-1043',
+    customerId: 'CUST-103',
+    customerName: 'Amitabh Sen',
+    customerEmail: 'amitabh.sen@outlook.com',
+    customerPhone: '+91 97222 33445',
+    orderType: 'Takeaway',
+    items: [
+      { id: 'food-6', name: 'Dum Handi Chicken Biryani', price: 299, quantity: 2, image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-20', name: 'Warm Gulab Jamun with Rabri', price: 129, quantity: 2, image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 856,
+    tax: 42.80,
+    serviceCharge: 42.80,
+    total: 941.60,
+    paymentMethod: 'Cash',
+    paymentStatus: 'Pending',
+    status: 'Confirmed',
+    createdAt: '2026-09-23T20:10:00',
+    estimatedTime: '25 mins'
+  },
+  {
+    id: 'ORD-1042',
+    customerId: 'CUST-104',
+    customerName: 'Sneha Kulkarni',
+    customerEmail: 'sneha.k@yahoo.com',
+    customerPhone: '+91 96333 44556',
+    orderType: 'Dine-in',
+    tableNumber: '06',
+    items: [
+      { id: 'food-5', name: 'Grilled Chicken Steak', price: 399, quantity: 2, image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-18', name: 'Molten Belgian Chocolate Lava Cake', price: 149, quantity: 2, image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 1096,
+    tax: 54.80,
+    serviceCharge: 54.80,
+    total: 1205.60,
+    paymentMethod: 'Card',
+    paymentStatus: 'Paid',
+    status: 'Ready',
+    createdAt: '2026-09-23T19:50:00',
+    estimatedTime: '5 mins'
+  },
+  {
+    id: 'ORD-1041',
+    customerId: 'CUST-101',
+    customerName: 'Rahul Sharma',
+    customerEmail: 'customer@restaurant.com',
+    customerPhone: '+91 98765 43210',
+    orderType: 'Delivery',
+    deliveryAddress: '42, Park Avenue, Indiranagar, Bengaluru - 560038',
+    items: [
+      { id: 'food-12', name: 'Butter Chicken Masala', price: 329, quantity: 1, image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-1', name: 'Tandoori Paneer Tikka', price: 229, quantity: 1, image: 'https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 558,
+    tax: 27.90,
+    serviceCharge: 27.90,
+    total: 613.80,
+    paymentMethod: 'UPI',
+    paymentStatus: 'Paid',
+    status: 'Completed',
+    createdAt: '2026-09-22T19:30:00',
+    estimatedTime: 'Delivered'
+  },
+  {
+    id: 'ORD-1040',
+    customerId: 'CUST-105',
+    customerName: 'Rohan Mehra',
+    customerEmail: 'rohan.m@gmail.com',
+    customerPhone: '+91 95444 55667',
+    orderType: 'Takeaway',
+    items: [
+      { id: 'food-4', name: 'Farmhouse Veg Delight Pizza', price: 199, quantity: 2, image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-23', name: 'Iced Caramel Macchiato', price: 159, quantity: 2, image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 716,
+    tax: 35.80,
+    serviceCharge: 35.80,
+    total: 787.60,
+    paymentMethod: 'UPI',
+    paymentStatus: 'Paid',
+    status: 'Completed',
+    createdAt: '2026-09-22T18:15:00',
+    estimatedTime: 'Completed'
+  },
+  {
+    id: 'ORD-1039',
+    customerId: 'CUST-106',
+    customerName: 'Divya Nambiar',
+    customerEmail: 'divya.nambiar@gmail.com',
+    customerPhone: '+91 94555 66778',
+    orderType: 'Dine-in',
+    tableNumber: '05',
+    items: [
+      { id: 'food-13', name: 'Paneer Butter Masala', price: 279, quantity: 1, image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-7', name: 'Royal Nizami Veg Biryani', price: 219, quantity: 1, image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 498,
+    tax: 24.90,
+    serviceCharge: 24.90,
+    total: 547.80,
+    paymentMethod: 'Card',
+    paymentStatus: 'Paid',
+    status: 'Completed',
+    createdAt: '2026-09-22T14:10:00',
+    estimatedTime: 'Completed'
+  },
+  {
+    id: 'ORD-1038',
+    customerId: 'CUST-108',
+    customerName: 'Pooja Hegde',
+    customerEmail: 'pooja.hegde@gmail.com',
+    customerPhone: '+91 92777 88990',
+    orderType: 'Delivery',
+    deliveryAddress: '33, Lakeview Drive, Bellandur, Bengaluru - 560103',
+    items: [
+      { id: 'food-2', name: 'Crispy Chicken Wings', price: 269, quantity: 2, image: 'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-24', name: 'Berry Blast Virgin Mojito', price: 129, quantity: 2, image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 796,
+    tax: 39.80,
+    serviceCharge: 39.80,
+    total: 875.60,
+    paymentMethod: 'UPI',
+    paymentStatus: 'Paid',
+    status: 'Completed',
+    createdAt: '2026-09-21T21:00:00',
+    estimatedTime: 'Completed'
+  },
+  {
+    id: 'ORD-1037',
+    customerId: 'CUST-107',
+    customerName: 'Karthik Rao',
+    customerEmail: 'karthik.rao@rediffmail.com',
+    customerPhone: '+91 93666 77889',
+    orderType: 'Delivery',
+    deliveryAddress: '88, 5th Main, Jayanagar, Bengaluru - 560011',
+    items: [
+      { id: 'food-9', name: 'Crispy Veg Supreme Burger', price: 149, quantity: 1, image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 149,
+    tax: 7.45,
+    serviceCharge: 7.45,
+    total: 163.90,
+    paymentMethod: 'Cash',
+    paymentStatus: 'Refunded',
+    status: 'Cancelled',
+    createdAt: '2026-09-21T16:20:00',
+    estimatedTime: 'Cancelled'
+  },
+  {
+    id: 'ORD-1036',
+    customerId: 'CUST-104',
+    customerName: 'Sneha Kulkarni',
+    customerEmail: 'sneha.k@yahoo.com',
+    customerPhone: '+91 96333 44556',
+    orderType: 'Dine-in',
+    tableNumber: '02',
+    items: [
+      { id: 'food-15', name: 'Sizzling Garlic Butter Prawns', price: 349, quantity: 1, image: 'https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=800&auto=format&fit=crop&q=80' },
+      { id: 'food-19', name: 'Classic New York Cheesecake', price: 189, quantity: 1, image: 'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&auto=format&fit=crop&q=80' }
+    ],
+    subtotal: 538,
+    tax: 26.90,
+    serviceCharge: 26.90,
+    total: 591.80,
+    paymentMethod: 'Card',
+    paymentStatus: 'Paid',
+    status: 'Completed',
+    createdAt: '2026-09-20T20:30:00',
+    estimatedTime: 'Completed'
+  }
+];
